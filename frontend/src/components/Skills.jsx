@@ -1,14 +1,15 @@
 import { motion } from 'framer-motion';
+import { FiCode, FiLayout, FiServer, FiDatabase, FiTool, FiCpu } from 'react-icons/fi';
 import SectionHeading from './ui/SectionHeading';
 import { SKILLS } from '../data';
 
 const categoryIcons = {
-  Languages: '{ }',
-  Frontend: '◈',
-  Backend: '⚙',
-  Databases: '⬡',
-  'Tools & Cloud': '☁',
-  'Core CS': '∑',
+  Languages: <FiCode size={16} />,
+  Frontend: <FiLayout size={16} />,
+  Backend: <FiServer size={16} />,
+  Databases: <FiDatabase size={16} />,
+  'Tools & Cloud': <FiTool size={16} />,
+  'Core CS': <FiCpu size={16} />,
 };
 
 export default function Skills() {
@@ -37,7 +38,7 @@ export default function Skills() {
             >
               <div className="flex items-center gap-3 mb-4">
                 <span
-                  className="text-lg font-mono w-8 h-8 flex items-center justify-center rounded-lg"
+                  className="w-8 h-8 flex items-center justify-center rounded-lg"
                   style={{ backgroundColor: 'var(--bg-secondary)', color: 'var(--text-muted)' }}
                 >
                   {categoryIcons[category]}
