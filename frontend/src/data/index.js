@@ -13,7 +13,7 @@ export const SKILLS = [
   },
   {
     category: 'Frontend',
-    items: ['React.js', 'Redux Toolkit', 'Tailwind CSS', 'HTML5', 'CSS3', 'Chart.js', 'Vite'],
+    items: ['React.js', 'Redux Toolkit', 'Tailwind CSS', 'HTML5', 'CSS3'],
   },
   {
     category: 'Backend',
@@ -21,15 +21,15 @@ export const SKILLS = [
   },
   {
     category: 'Databases',
-    items: ['MongoDB (Mongoose)', 'MySQL'],
+    items: ['MongoDB (Mongoose)'],
   },
   {
     category: 'Tools & Cloud',
-    items: ['Vercel', 'Netlify', 'Render', 'Git', 'GitHub', 'Postman', 'VS Code', 'Appwrite'],
+    items: ['Vercel', 'Netlify', 'Git', 'GitHub', 'Postman'],
   },
   {
     category: 'Core CS',
-    items: ['Data Structures & Algorithms', 'OOP', 'DBMS', 'System Design Basics'],
+    items: ['Data Structures & Algorithms', 'Object Oriented Programming'],
   },
 ];
 

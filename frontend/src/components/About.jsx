@@ -2,10 +2,10 @@ import { motion } from 'framer-motion';
 import SectionHeading from './ui/SectionHeading';
 
 const stats = [
-  { value: '3+', label: 'Projects Shipped' },
+  { value: '2+', label: 'Projects Develop' },
   { value: '15+', label: 'REST APIs Built' },
-  { value: '300+', label: 'DSA Problems Solved' },
-  { value: '2+', label: 'Years of Experience' },
+  { value: '100+', label: 'DSA Problems Solved' },
+  
 ];
 
 export default function About() {

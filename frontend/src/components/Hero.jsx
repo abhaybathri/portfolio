@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
 import { HiArrowDown } from 'react-icons/hi';
 import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
-const resumeFile = '/Abhay_Bathri_Resume.docx';
+const resumeFile = '/Abhay_Bathri_Resume.pdf';
 
 const container = {
   hidden: {},
@@ -82,7 +82,7 @@ export default function Hero() {
 
           <a
             href={resumeFile}
-            download="Abhay_Bathri_Resume.docx"
+            download="Abhay_Bathri_Resume.pdf"
             className="px-6 py-2.5 rounded-lg text-sm font-semibold border transition-all duration-200 hover:opacity-70 active:scale-95"
             style={{ borderColor: 'var(--border)', color: 'var(--text)', backgroundColor: 'transparent' }}
           >

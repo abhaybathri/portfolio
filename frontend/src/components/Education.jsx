@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import SectionHeading from './ui/SectionHeading';
 
 const achievements = [
-  { label: '300+ DSA Problems', desc: 'Solved across LeetCode and GeeksforGeeks, covering arrays, trees, graphs, DP, and more.' },
+  { label: '100+ DSA Problems', desc: 'Solved across LeetCode and GeeksforGeeks, covering arrays, link-list,stack, queue and more.' },
   { label: 'Problem-First Mindset', desc: 'Every feature I build starts with understanding the problem deeply before writing a single line of code.' },
   { label: 'Consistent Learner', desc: 'Actively learning system design, advanced backend patterns, and cloud deployment strategies.' },
 ];
@@ -49,13 +49,13 @@ export default function Education() {
                     className="text-xs px-2.5 py-1 rounded-md border font-medium"
                     style={{ borderColor: 'var(--border)', color: 'var(--text-muted)', backgroundColor: 'var(--bg-secondary)' }}
                   >
-                    CGPA: 7.17 / 10
+                    CGPA: 7.35 / 10
                   </span>
                   <span
                     className="text-xs px-2.5 py-1 rounded-md border font-medium"
                     style={{ borderColor: 'var(--border)', color: 'var(--text-muted)', backgroundColor: 'var(--bg-secondary)' }}
                   >
-                    Aug 2022 – Present
+                    Aug 2022 – Jun 2026
                   </span>
                 </div>
               </div>
